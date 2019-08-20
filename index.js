@@ -12,9 +12,9 @@ function updateObjectWithKeyAndValue(object, key, value){
 }
 
 function updateObjectWithKeyAndValue(object, key, value){
-  return Object.assign({}, recipes, {prop: 'new value'});
+  return Object.assign({}, object, {key: 'value'});
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
-  return Object.assign(recipes, {prop: '1'}, {prop2: '2'});
+  return Object.assign(object, {key: 'value'}, {key: 'value'});
 }

@@ -6,8 +6,8 @@ function updateObjectWithKeyAndValue(object, key, value){
 }
 
 function updateObjectWithKeyAndValue(object, key, value){
-  recipes.prop = '1';
-  recipes.prop2 = '2';
+  object.key = 'value';
+  object.key = 'value';
   return recipes;
 }
 
